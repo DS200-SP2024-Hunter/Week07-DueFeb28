@@ -8,6 +8,9 @@ The main objective of this week's lab is to produce at least one visualization, 
 
 Objective:  Use the example code provided to (a) create a map-based visualizaton of based on the flights.csv dataset, and (b) provide a short narrative based on what the visualization reveals.  For instance, the example code shows average flight time as well as the total number of flights departing from a subset of the airports.  As in the example, you may use a subset of the full dataset if you wish.  You may also produce more than one map if you wish.
 
+Here is [a supplementary jupyter notebook for this lab](https://github.com/DS200-SP2024-Hunter/Week07-DueFeb28/blob/main/Lab07SupplementaryNotebook.ipynb) and
+[a screenshot of the map produced by the final code block](https://github.com/DS200-SP2024-Hunter/Week07-DueFeb28/blob/main/Lab07SupplementaryNotebook.ipynb).
+
 Your assignment is as follows:
 
 1. Create a new Jupyter notebook in which you produce at least one map of the United States that you find interesting.  Your notebook should include supporting text, using a text box or boxes in your notebook, explaining in detail what the map shows. The data to use for this map come from the `flights.csv` file used in [Lab 6](https://github.com/DS200-SP2024-Hunter/Week06-DueFeb23), and you should somehow summarize at least two different variables created from that dataset in your visualization.  Please do not use exactly the same variables and subset of the flights as in the example code.
