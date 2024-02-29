@@ -1,7 +1,6 @@
 # Lab Assignment for Week 07
 ## Create a Map-Based Visualization from the U.S. Flights Dataset
-## Due on [Canvas](https://psu.instructure.com/courses/2306358/assignments/15979273) on Fri., Mar. 1 at 11:59pm
-## NOTICE:  DEADLINE EXTENDED
+## Due on [Canvas](https://psu.instructure.com/courses/2306358/assignments/15979273) on Fri., Mar. 1 at 11:59pm: NOTICE:  DEADLINE EXTENDED
 
 **On this and all labs for the rest of the semester: When you have a choice between the [datascience package](https://www.data8.org/datascience/) and the [pandas library](https://pandas.pydata.org/docs/), you are free to use either method to complete your work. HOWEVER, on Lab 7, we recommend using the datascience package, as the file management required here is already tricky and the map-based features in the datascience package are difficult to implement by themselves.**
 
