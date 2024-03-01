@@ -11,6 +11,13 @@ Objective:  Use the example code provided to (a) create a map-based visualizato
 Here is [a supplementary jupyter notebook for this lab](https://github.com/DS200-SP2024-Hunter/Week07-DueFeb28/blob/main/Lab07SupplementaryNotebook.ipynb) and
 [a screenshot of the map produced by the final code block](https://github.com/DS200-SP2024-Hunter/Week07-DueFeb28/blob/main/Lab07_MapScreenshot.png). In that map, both the colors of the circles and the sizes of the circles are determined by the same variable, the count of flights.  Can you create a map that uses color for one variable and circle size for another?
 
+NOTICE:  Several airports are missing longitude/latitude coordinates, which show up as `nan` (not a number).  After loading your airports dataset, you can fix this by dropping the three rows containing these airports, creating a new table called `new_airports`, as follows:
+```
+df = airports.to_df()
+df = df.dropna()
+new_airports = Table.from_df(df)
+```
+
 Your assignment is as follows:
 
 1. Create a new Jupyter notebook in which you produce at least one map of the United States that you find interesting.  Your notebook should include supporting text, using a text box or boxes in your notebook, explaining in detail what the map shows. The data to use for this map come from the `flights.csv` file used in [Lab 6](https://github.com/DS200-SP2024-Hunter/Week06-DueFeb23), and you should somehow summarize at least two different variables created from that dataset in your visualization.  Please do not use exactly the same variables and subset of the flights as in the example code.
