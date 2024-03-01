@@ -11,7 +11,7 @@ Objective:  Use the example code provided to (a) create a map-based visualizato
 Here is [a supplementary jupyter notebook for this lab](https://github.com/DS200-SP2024-Hunter/Week07-DueFeb28/blob/main/Lab07SupplementaryNotebook.ipynb) and
 [a screenshot of the map produced by the final code block](https://github.com/DS200-SP2024-Hunter/Week07-DueFeb28/blob/main/Lab07_MapScreenshot.png). In that map, both the colors of the circles and the sizes of the circles are determined by the same variable, the count of flights.  Can you create a map that uses color for one variable and circle size for another?
 
-NOTICE:  Several airports are missing longitude/latitude coordinates, which show up as `nan` (not a number).  After loading your airports dataset, you can fix this by dropping the three rows containing these airports, creating a new table called `new_airports`, as follows:
+CAUTION:  Several airports are missing longitude/latitude coordinates, which show up as `nan` (not a number).  After loading your airports dataset, you can fix this by dropping the three rows containing these airports, creating a new table called `new_airports`, as follows:
 ```
 df = airports.to_df()
 df = df.dropna()
